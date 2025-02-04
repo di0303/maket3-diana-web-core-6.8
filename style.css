@@ -1,0 +1,156 @@
+@font-face{
+    font-family: "TT Lakes";
+    src: local("TT Lakes Regular"),url(TT\ Lakes\ Neue\ Trial\ Condensed\ Regular.ttf) format(woff);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "TT Lakes";
+    
+}
+body{
+    background-color: #F5f5f5;
+    color: #1B1C21;
+
+}
+.menu{
+    width: 320px;
+    height: 1024px;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border: #1B1C21;
+   
+   
+}
+.menu__top{
+    margin-bottom: 20px;
+}
+.menu__btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    transition: opacity 0.2s ease;
+    justify-content: space-between;
+
+}
+.menu__btn img{
+    width: 100%;
+    height: 100%;
+}
+.menu__btn:hover{
+    opacity: 0.7;
+}
+.menu__close{
+
+    border-radius: 20px;
+    background-color: palevioletred;
+   
+    cursor: pointer;
+   
+    margin-right: 16px;
+   
+
+
+}
+.menu__logo{
+   width: 90px;
+   height: 40px;
+   top: 28px;
+ 
+   margin-right: 75px;
+  
+   
+    
+}
+.menu__search{
+   margin-right: 20px;
+    border-radius: 20px;
+    border-color: black;
+    border: 15px;
+    background-color: palevioletred;
+   
+    
+}
+.menu__list{
+    list-style: none;
+    
+    margin-bottom: 50px;
+}
+.menu__list li{
+    margin: 0.8px 0 ;
+   
+}
+.menu__list--a{
+     text-decoration: none;
+     color: #1B1C21;
+     font-size: 14px;
+     transition: filter 0.3s ease;
+     
+}
+.menu__list--active{
+    color: #7E7E82;
+    
+    text-decoration: none;
+    
+    
+}
+.bottom{
+    margin-top: auto;
+    text-align: start;
+    flex-direction: row;
+    text-decoration: none;
+    
+
+}
+.menu__action{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.menu__contact{
+    font-size: 14px;
+   
+    margin-top: 10px;
+}
+.menu__contact a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 5px 0;
+    transition: opacity 0.3s ease; 
+}
+.menu__contact a:hover{
+    opacity: 0.7;
+}
+
+
+.menu__languages{
+    margin-top: 10px;
+    font-size: 14px;
+    transition: opacity 0.3s ease;
+    
+}
+.menu__languages--a{
+    font-size: 14px;
+    color: #1B1C21;
+    text-decoration: none;
+}
+.menu__languages a:hover{
+    opacity: 0.7;
+}
+.menu__languages--active{
+    color: #7E7E82;
+    text-decoration: none;
+      
+}
