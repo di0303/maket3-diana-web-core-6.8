@@ -16,7 +16,7 @@ body{
 }
 .menu{
     width: 320px;
-    height:auto;
+    height:100vh;
     left: 0;
     top: 0;
     position: fixed;
